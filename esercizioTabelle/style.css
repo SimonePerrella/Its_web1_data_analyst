@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ccf5cc;
+  }
+  
+  .top_page {
+    max-width: 1100px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid #aaa;
+  }
+  
+  header img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .menu-navigazione {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #d9d9d9;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+  }
+  
+  .menu-navigazione li {
+    padding: 10px 15px;
+    border-right: 1px solid #aaa;
+  }
+  
+  .menu-navigazione li:last-child {
+    border-right: none;
+  }
+  
+  .menu-navigazione a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .contenuto-flessibile {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .colonna-sinistra {
+    width: 30%;
+    padding-right: 20px;
+  }
+  
+  .colonna-sinistra img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .blocco-login {
+    background-color: #f0f0f0;
+    border: 1px solid #aaa;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .blocco-login h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .blocco-login input {
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #aaa;
+  }
+  
+  .blocco-login button {
+    width: 100%;
+    padding: 5px;
+    background-color: #ccc;
+    border: 1px solid #aaa;
+    cursor: pointer;
+  }
+  
+  .blocco-catalogo h3 {
+    background-color: #ccc;
+    padding: 5px;
+    margin: 0;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-bottom: none;
+  }
+  
+  .blocco-catalogo img {
+    width: 100%;
+    border: 1px solid #aaa;
+    border-top: none;
+  }
+  
+  .contenuto-dx {
+    width: 70%;
+  }
+  
+  .contenuto-dx h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .contenuto-dx p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .scheda-libro {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .scheda-libro img {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+    border: 1px solid #ccc;
+  }
+  
+  .dettagli-libro {
+    font-size: 14px;
+  }
+  
+  .stato-verde {
+    color: green;
+    font-weight: bold;
+  }
+  
